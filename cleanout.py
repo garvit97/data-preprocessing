@@ -1,5 +1,5 @@
 
-f1=open("lower2out.dev.txt",'w')	#without .
+f1=open("lower2out.dev.txt",'w')	#all lowercase
 f2=open("2out.dev.txt",'r')		#with .
 punc=[",COMMA","?QUESTIONMARK","!EXCLAMATIONMARK",".PERIOD",":COLON",";SEMICOLON","-DASH"]
 for line in f2:
